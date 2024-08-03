@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+a#download-link {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a#download-link:hover {
+    background-color: #45a049;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}

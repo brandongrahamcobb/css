@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#editor-container {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.CodeMirror {
+    flex-grow: 1;
+    border: 1px solid #555;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#controls button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #0f9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#controls button:hover {
+    background-color: #444;
+}
